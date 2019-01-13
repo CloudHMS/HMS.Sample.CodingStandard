@@ -75,6 +75,7 @@ int
 // Correct
 public class LinkedList<K,T>
 {...}
+
 // Avoid
 public class LinkedList<KeyType,DataType>
 {...}
@@ -118,6 +119,7 @@ public class MyClass
 // In MyClass.cs
 public partial class MyClass
 {...}
+
 // In MyClass.Designer.cs
 public partial class MyClass
 {...}
@@ -136,6 +138,7 @@ void InvokeMethod()
                                 };
     someDelegate("Juval");
 }
+
 // Avoid
 void InvokeMethod()
 {
@@ -151,6 +154,7 @@ SomeDelegate someDelegate = delegate
                             {
                                 MessageBox.Show("Hello");
                             };
+			    
 //Avoid
 SomeDelegate someDelegate = delegate()
                             {
