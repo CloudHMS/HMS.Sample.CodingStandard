@@ -1,4 +1,4 @@
-# NAMING CONVENTION
+# NAMING CONVENTIONS
 
 1. Type, method, and constant
 - Pascal casing
@@ -48,13 +48,20 @@ public interface IMyInterface
 {...}
 ```
 
-6. `Attribute`, `Exception`
-- Suffix with `Attribute`, `Exception`.
+6. `Attribute`, `Exception`, or `Async`
+- Suffix with `Attribute`, `Exception`, or `Async`
 ```csharp
 public class CustomFilterAttribute
 {...}
 public class CustomException
 {...}
+public class Awaitable
+{
+    public async Task ExecuteAsync()
+    {
+        await SomeTask();
+    }
+}
 ```
 
 7. Name Methods using verb-object pair.
@@ -168,13 +175,13 @@ void InvokeMethod()
 20. Avoid using empty parentheses on parameter-less anonymous methods.
 ```csharp
 delegate void SomeDelegate();
-//Correct
+// Correct
 SomeDelegate someDelegate = delegate
                             {
                                 MessageBox.Show("Hello");
                             };
 			    
-//Avoid
+// Avoid
 SomeDelegate someDelegate = delegate()
                             {
                                 MessageBox.Show("Hello");
@@ -184,4 +191,25 @@ SomeDelegate someDelegate = delegate()
 
 21. Use in-line Lambda expressions when they contain a single simple statement.
 
+## Out of iDesign scope
+
 22. Always have **space** before and after the **colon** (`:`).
+
+23. Project name should follow structure *`<NameOfSystem>.<FunctionOfSystem>.<NameOfSubSystem1>.<FunctionOfSubSystem1>.<...>.<...>`*. Any sub-systems shouls keep extending this naming structure.
+- *`<NameOfSystem>`* could be company name, library name,... If it's the sub-system, it means that it belongs to the previous system.
+- *`<FunctionOfSystem>`* could be the purpose of this project on the above name, explain its existence. Must be in singular form. 
+```csharp
+// This is the core code of HMS company
+HMS.Core
+// The OWS system belongs to HMS proxy system
+HMS.Proxy.OWS
+// The tool for OWS system of HMS proxy system
+HMS.Proxy.OWS.Tool
+```
+
+24. Mimic the code layout of a regular method, aligned with the dot annotation.
+```csharp
+myInstance.AddMethod1()
+          .AddMethod2()
+          .AddMethod3();
+```

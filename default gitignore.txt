@@ -1,0 +1,10 @@
+// Copy this file to the root of repository
+// Rename this file to .gitignore
+// Delete these comments
+.idea
+.vs
+bin
+obj
+Logs
+*.user
+*.DotSettings
