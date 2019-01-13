@@ -1,7 +1,8 @@
 # NAMING CONVENTIONS
 
 1. Type, method, and constant
-- Pascal casing
+- Pascal casing.
+
 ```csharp
 public class SomeClass
 {	
@@ -11,7 +12,8 @@ public class SomeClass
 ```
 
 2. Constant
-- Capital letter
+- Capital letter.
+
 ```csharp
 public class SomeClass
 {
@@ -20,9 +22,8 @@ public class SomeClass
 ```
 
 3. Private member
-- Prefix with `_` and then camel casing
-> The iDesign's original rule for private member is m_ and pascal casing. However, the community (StackOverflow) recently agreed that the _ and camel casing still makes sense and applicable.
-
+- Prefix with `_` and then camel casing.
+> The iDesign's original rule for private member is **m_** and pascal casing. However, the community (StackOverflow) recently agreed that the **_** and camel casing still makes sense and applicable.
 ```csharp
 public class SomeClass
 {
@@ -31,7 +32,7 @@ public class SomeClass
 ```
 
 4. Local variable, method argument
-- Camel casing
+- Camel casing.
 ```csharp
 public class SomeClass
 {
@@ -50,7 +51,7 @@ public interface IMyInterface
 ```
 
 6. `Attribute`, `Exception`, or `Async`
-- Suffix with `Attribute`, `Exception`, or `Async`
+- Suffix with `Attribute`, `Exception`, or `Async`.
 ```csharp
 public class CustomFilterAttribute
 {...}
@@ -65,13 +66,13 @@ public class Awaitable
 }
 ```
 
-7. Name Methods using verb-object pair.
+7. Name Methods using verb-object pair
 ```csharp
 public void ShowDialog()
 {...}
 ```
 
-8. Methods with return values should have name describing the value returned.
+8. Methods with return values should have name describing the value returned
 ```csharp
 public IEnumerable<Rates> GetRates()
 {...}
@@ -81,14 +82,15 @@ public IEnumerable<Rates> GetRates()
 - Avoid single character, such as **t**, **s**, except the declaration in `for (int i;...)`.
 - No abbreviate, as **num** instead of **number**.
 
-10. Always use C# predefined types.
+10. Always use C# predefined types
 ```csharp
 object
 string
 int
 ```
 
-11. With generics, use capital letters for types. Preserve suffing `Type`.
+11. With generics, use capital letters for types. Preserve suffing `Type`
+
 ```csharp
 // Correct
 public class LinkedList<K,T>
