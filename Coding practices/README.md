@@ -464,3 +464,5 @@ else
 ```
 
 75. There should be a **space** after C# keywords `for`, `if`, `else`, `switch`,...
+
+76. Should always include the `private` modifier.
