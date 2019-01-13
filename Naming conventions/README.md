@@ -24,7 +24,7 @@ public class SomeClass
 3. Private member
 - Prefix with `_` and then camel casing.
 > The iDesign's original rule for private member is **m_** and pascal casing. However, the community (StackOverflow) recently agreed that the **_** and camel casing still makes sense and applicable.
-```csharp
+- ```csharp
 public class SomeClass
 {
 	private int _defaultSize = 100;
