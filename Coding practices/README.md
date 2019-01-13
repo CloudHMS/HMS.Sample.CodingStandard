@@ -1,4 +1,4 @@
-## Coding Practices
+# CODING PRACTICES
 
 1.  **Single** class **single** file.
 
