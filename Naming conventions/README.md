@@ -148,7 +148,7 @@ public partial class MyClass
 {...}
 ```
 
-18. Always place open curly brace `{` in a new line.
+18. Always place brace and curly brace `{`, `}`, `( ` and `)` in a new line.
 
 19. Anonymous methods, Lambda expressions
 - Mimic the code layout of a regular method, aligned with the delegate declaration. (complies with placing an open curly brace in a new line).
