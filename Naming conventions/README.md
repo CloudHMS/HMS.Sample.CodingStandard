@@ -2,7 +2,6 @@
 
 1. Type, method, and constant
 - Pascal casing.
-
 ```csharp
 public class SomeClass
 {	
@@ -13,7 +12,6 @@ public class SomeClass
 
 2. Constant
 - Capital letter.
-
 ```csharp
 public class SomeClass
 {
@@ -23,8 +21,8 @@ public class SomeClass
 
 3. Private member
 - Prefix with `_` and then camel casing.
-> The iDesign's original rule for private member is **m_** and pascal casing. However, the community (StackOverflow) recently agreed that the **_** and camel casing still makes sense and applicable.
-- ```csharp
+> The iDesign's original rule for private member is `m_` and pascal casing. However, the community (StackOverflow) recently agreed that the `_` and camel casing still makes sense and applicable.
+```csharp
 public class SomeClass
 {
 	private int _defaultSize = 100;
@@ -90,7 +88,6 @@ int
 ```
 
 11. With generics, use capital letters for types. Preserve suffing `Type`
-
 ```csharp
 // Correct
 public class LinkedList<K,T>
