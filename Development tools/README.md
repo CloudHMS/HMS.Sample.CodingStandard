@@ -10,7 +10,7 @@
 - Helps keep a track of running processes in the debug window.
 
 3. [Solution Error Visualizer](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.SolutionErrorVisualizer)
-- This feature adds error, warning, and message squiggles to Solution Explorer. The information is fetched from the Error List and directly displayed in the Solution Explorer tree view.  Hovering over the nodes with squiggles brings up a pop-up with the error/warning/message information.
+- This feature adds error, warning, and message squiggles to Solution Explorer. The information is fetched from the Error List and directly displayed in the Solution Explorer tree view. Hovering over the nodes with squiggles brings up a pop-up with the error/warning/message information.
 
 4. [Shrink Empty Lines](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SyntacticLineCompression)
 - Syntactic line compression enables you to make better use of your screen's vertical real-estate. It shrinks lines that contain neither letters nor numbers by 25% vertically, allowing more lines to be displayed in the editor. Other lines are not affected.

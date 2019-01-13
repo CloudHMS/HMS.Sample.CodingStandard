@@ -19,6 +19,7 @@
 6. All assembly references in the same solution should use relative paths.
 
 7. Disallow cyclic references between assemblies.
+> **IMPORTANT**
 
 8. Avoid multi-module assemblies.
 
@@ -26,3 +27,4 @@
 > See the SolutionInfo.cs technique from Chapter 5 of Programming .NET Components 2nd Edition to automate.
 
 10. Name your application configuration file as `appsettings.json`, and include it in the project. Use `appsettings.{environment}.json` for each environment per se.
+> **DO NOT** add `appsettings.{environment}.json` to VSC, but the solution should be able to run with/without it.

@@ -1,18 +1,18 @@
 # CODING PRACTICES
 
-1.  **Single** class **single** file.
+1. **Single** class **single** file.
 
-2.  **Single** file contribute **single** namespace.
+2. **Single** file contribute **single** namespace.
 
-3.  **Avoid** files with more than **500 lines** (except auto-generated).
+3. **Avoid** files with more than **500 lines** (except auto-generated).
 
-4.  **Avoid** methods with more than **200 lines**.
+4. **Avoid** methods with more than **200 lines**.
 
-5.  **Avoid** methods with more than **5 arguments**. Use structures for passing multiple arguments.
+5. **Avoid** methods with more than **5 arguments**. Use structures for passing multiple arguments.
 
 6. Lines should **not** exceed **120 characters**.
 
-7.  **NO** editing **auto-generated** manually. Use partial classes instead.
+7. **NO** editing **auto-generated** manually. Use partial classes instead.
 
 8. Avoid comments that explain the obvious. Code should be self-explanatory.
 > Good code with readable variable and method names should not require comments.
@@ -29,11 +29,11 @@
 
 13. Avoid using `const` on read-only variables. For that, use the `readonly` directive.
 ```csharp
-public  class  MyClass
+public class MyClass
 {
-    public  const  int  DAYS_OF_WEEK = 7;
-    public  readonly  int  Number;
-    public  MyClass(int  someValue)
+    public const int DAYS_OF_WEEK = 7;
+    public readonly int Number;
+    public MyClass(int someValue)
     {
         Number = someValue;
     }
@@ -57,20 +57,20 @@ class MyClass
 //Avoid
 class MyClass
 {
-    void MyMethod(int  number = 123)
+    void MyMethod(int number = 123)
     {...}
 }
 ```
 
 15. When using default parameters, restrict them to natural immutable constants such as `null`, `false`, or `0`
 ```csharp
-void MyMethod(int  number = 0)
+void MyMethod(int number = 0)
 {...}
 
-void MyMethod(string  name = null)
+void MyMethod(string name = null)
 {...}
 
-void MyMethod(bool  flag = false)
+void MyMethod(bool flag = false)
 {...}
 ```
 
@@ -100,7 +100,7 @@ catch(Exception exception)
 23. Avoid friend assemblies as they increase inter-assembly coupling.
 
 24. Minimize code in application assemblies (EXE client assemblies). Use class libraries instead to contain business logic.
->  **IMPORTANT**.
+> **IMPORTANT**.
 
 25. Providing explicit values for enums
 ```csharp
@@ -173,7 +173,7 @@ const int ARRAY_SIZE = 100;
 MyClass[] array = new MyClass[ARRAY_SISZE];
 for (int index = 0; index < array.Length; index++)
 {
-    array[index] = new  MyClass();
+    array[index] = new MyClass();
 }
 ```
 
@@ -223,7 +223,7 @@ if (shepherd != null)
 
 39. Always check a delegate fornull before invoking it.
 
->  **IMPORTANT**.
+> **IMPORTANT**.
 
 40. Avoid defining event-handling delegates. Use `EventHandler<T>` or `GenericEventHandler` instead.
 > GenericEventHandleris defined inChapter 6 of Programming .NET Components 2nd Edition.
@@ -262,7 +262,7 @@ else
 53. Never hardcode strings that will be presented to end users. Use resources instead.
 
 54. Never hardcode strings that might change based on deployment such as connectionstrings.
->  **IMPORTANT**.
+> **IMPORTANT**.
 
 55. Use `string.Empty` instead of `""`:
 ```csharp
@@ -321,7 +321,7 @@ public class Dog
     public Dog(string name)
     {..}
 
-    virtual  public  void Bark(int  howLong)
+    virtual public void Bark(int howLong)
     {...}
 }
 
@@ -397,7 +397,7 @@ public interface ICustomerList : IList<Customer>
 {...}
 
 // Avoid
-public interface IList<T>where  T : Customer
+public interface IList<T>where T : Customer
 {...}
 ```
 
@@ -432,3 +432,35 @@ var myVariable = DoSomethig();
 ```
 
 73. Do not assign method return types or complex expressions into a `var` variable, withthe exception of LINQ projections that result in anonymous types.
+
+## Out of iDesign scope
+
+74. Always check for positive logic in `if` statement.
+```csharp
+MyObject myObject;
+string myStr;
+
+// Correct
+if (myStr.IsNullOrEmpty())
+{...}
+else
+{...}
+
+if (myObject == null)
+{...}
+else
+{...}
+
+// Avoid
+if (!myStr.IsNullOrEmpty())
+{...}
+else
+{...}
+
+if (myObject != null)
+{...}
+else
+{...}
+```
+
+75. There should be a **space** after C# keywords `for`, `if`, `else`, `switch`,...
