@@ -28,15 +28,15 @@
 8. [Syntax Highlighting Pack](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SyntaxHighlightingPack)
 - Adds syntax highlighting and snippet support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...
 
-## Free for Community
-
-9. [Supercharger](https://marketplace.visualstudio.com/items?itemName=MichaelKissBG8.Supercharger)
-- Supercharger is an extension designed to significantly improve the Visual Studio development experience. It builds upon and enhances previous VS10x products like CodeMAP, Editor View Enhancer, Comments Extender while also adding new high-quality tools.
-
-10. [StyleCop](https://marketplace.visualstudio.com/items?itemName=ChrisDahlberg.StyleCop)
+9. [StyleCop](https://marketplace.visualstudio.com/items?itemName=ChrisDahlberg.StyleCop)
 - StyleCop analyzes C# source code to enforce a set of style and consistency rules.
 - This extension allows analysis to be performed on any project opened in Visual Studio without modifying the project.
 > This extension is a must-have while developing for HMS.
+
+## Free for Community
+
+10. [Supercharger](https://marketplace.visualstudio.com/items?itemName=MichaelKissBG8.Supercharger)
+- Supercharger is an extension designed to significantly improve the Visual Studio development experience. It builds upon and enhances previous VS10x products like CodeMAP, Editor View Enhancer, Comments Extender while also adding new high-quality tools.
 
 ## Commercial
 11. [Reshaper](https://www.jetbrains.com/resharper/)
