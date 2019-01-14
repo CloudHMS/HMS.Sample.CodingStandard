@@ -32,3 +32,7 @@
 
 10. Name your application configuration file as `appsettings.json`, and include it in the project. Use `appsettings.{environment}.json` for each environment per se.
 > **DO NOT** add `appsettings.{environment}.json` to VSC, but the solution should be able to run with/without it.
+
+11. Configure the **Using Directives** as
+
+![Using directive setting](Assets/using-directive.jpg)

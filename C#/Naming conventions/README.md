@@ -48,8 +48,8 @@ public interface IMyInterface
 {...}
 ```
 
-6. `Attribute`, `Exception`, or `Async`
-- Suffix with `Attribute`, `Exception`, or `Async`.
+6. `Attribute`, `Exception`, `Func`, `Action`, or `Async`
+- Suffix with `Attribute`, `Exception`, `Func`, `Action`, or `Async`.
 ```csharp
 public class CustomFilterAttribute
 {...}
@@ -212,4 +212,28 @@ HMS.Proxy.OWS.Tool
 myInstance.AddMethod1()
           .AddMethod2()
           .AddMethod3();
+```
+
+25. The private members, properties, and methods of a class, if possible, shouldn't repeat the class type's name.
+```csharp
+// The class type is Response type
+public class ApiResponse
+{
+    // Correct
+    public object Data { get; set; }
+
+    // Avoid
+    public object ResponseData { get; set; } 
+}
+```
+
+26. No suffix with a typical name as `Object`.
+```csharp
+// Correct
+public class ApiResponseObject
+{...}
+
+// Avoid
+public class ApiResponse
+{...}
 ```

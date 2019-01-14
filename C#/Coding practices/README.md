@@ -231,8 +231,8 @@ if (shepherd != null)
 41. Avoid raising events explicitly. Use `EventsHelper` to publish events defensively.
 > EventsHelper is presented in Chapter 6-8 of Programming .NET Components 2nd Edition.
 
-47. Always use interfaces.
-> See Chapters 1 and 3 in Programming .NET Components 2nd Edition.
+47. Prefer use interfaces.
+> See Chapters 1 and 3 in Programming .NET Components 2nd Edition. We agree it to "prefer" level, not "always"
 
 48. Do not have more than **20** members per interface. **12** is probably the practical limit.
 
