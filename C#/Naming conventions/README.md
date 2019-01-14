@@ -36,7 +36,7 @@ public class SomeClass
 {
 	public void Add(int paramA, int paramB)
 	{
-		int result;3
+		int result;
 	}
 }
 ```
