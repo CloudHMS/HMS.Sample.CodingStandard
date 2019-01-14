@@ -42,7 +42,7 @@ public class SomeClass
 ```
 
 5. Interface
-- Prefix with ***I*** and pascal casing.
+- Prefix with `I` and pascal casing.
 ```csharp
 public interface IMyInterface
 {...}
@@ -77,8 +77,8 @@ public IEnumerable<Rates> GetRates()
 ```
 
 9. Variable names
-- Avoid single character, such as **t**, **s**, except the declaration in `for (int i;...)`.
-- No abbreviate, as **num** instead of **number**.
+- Avoid single character, such as `t`, `s`, except the declaration in `for (int i;...)`.
+- No abbreviate, as `num` instead of `number`.
 
 10. Always use C# predefined types
 ```csharp
@@ -87,7 +87,7 @@ string
 int
 ```
 
-11. With generics, use capital letters for types. Preserve suffing `Type`
+11. With generics, use capital letters for types. Preserve suffing `Type`.
 ```csharp
 // Correct
 public class LinkedList<K,T>
@@ -100,8 +100,8 @@ public class LinkedList<KeyType,DataType>
 
 12. Namespaces
 - Use meaningful namespaces such as product name or the company name.
-- Avoid fully qualified type names. Use **using**.
-- Avoid putting **using** inside of namespace.
+- Avoid fully qualified type names. Use `using`.
+- Avoid putting `using` inside of namespace.
 - Group namespaces together, and custom or third-party namespaces underneath.
 ```csharp
 using System;
