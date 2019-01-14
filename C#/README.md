@@ -4,9 +4,9 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 ## Sections
 1. [Code practices](https://github.com/CloudHMS/HMS.CodingStandard/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Coding%20practices)
 2. [Development tools](https://github.com/CloudHMS/HMS.CodingStandard/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Development%20tools)
-3. [Logging conventions](https://github.com/CloudHMS/HMS.CodingStandards/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Logging%20conventions)
-4. [Naming conventions](https://github.com/CloudHMS/HMS.CodingStandards/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Naming%20conventions)
-5. [Project settings and structure](https://github.com/CloudHMS/HMS.CodingStandards/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Project%20settings%20and%20structure)
+3. [Logging conventions](https://github.com/CloudHMS/HMS.CodingStandard/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Logging%20conventions)
+4. [Naming conventions](https://github.com/CloudHMS/HMS.CodingStandard/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Naming%20conventions)
+5. [Project settings and structure](https://github.com/CloudHMS/HMS.CodingStandard/tree/efa3bbd5ad85b89a74f0e24274c5bd67bb94ec49/C%23/Project%20settings%20and%20structure)
 
 # Development guidelines
 ## Initial project phase
