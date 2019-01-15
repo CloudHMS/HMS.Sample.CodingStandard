@@ -195,7 +195,8 @@ SomeDelegate someDelegate = delegate()
 
 22. Always have **space** before and after the **colon** (`:`).
 
-23. Project name should follow structure *`<NameOfSystem>.<FunctionOfSystem>.<NameOfSubSystem1>.<FunctionOfSubSystem1>.<...>.<...>`*. Any sub-systems shouls keep extending this naming structure.
+### <a id="rule-23"></a>
+23. Project name, or DynamoDB should follow structure *`<NameOfSystem>.<FunctionOfSystem>.<NameOfSubSystem1>.<FunctionOfSubSystem1>.<...>.<...>`*. Any sub-systems shouls keep extending this naming structure.
 - *`<NameOfSystem>`* could be company name, library name,... If it's the sub-system, it means that it belongs to the previous system.
 - *`<FunctionOfSystem>`* could be the purpose of this project on the above name, explain its existence. Must be in singular form. 
 ```csharp
@@ -230,10 +231,10 @@ public class ApiResponse
 26. No suffix with a typical name as `Object`.
 ```csharp
 // Correct
-public class ApiResponseObject
+public class ApiResponse
 {...}
 
 // Avoid
-public class ApiResponse
+public class ApiResponseObject
 {...}
 ```
