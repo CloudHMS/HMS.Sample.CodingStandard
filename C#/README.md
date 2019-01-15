@@ -18,6 +18,7 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 ```xml
     <PropertyGroup>
         <Version>1.0.0</Version> <!-- Should change depends on which version you're working with -->
+        <Authors>HMS</Authors>
         <Company>HMS</Company>
         <Product>HMS</Product>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
