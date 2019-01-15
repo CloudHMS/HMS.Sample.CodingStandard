@@ -17,6 +17,13 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 5. Make sure the `csproj` file contains these lines.
 ```xml
     <PropertyGroup>
+        <Version>1.0.0</Version> <!-- Should change depends on which version you're working with -->
+        <Company>HMS</Company>
+        <Product>HMS</Product>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <PropertyGroup>
         <CodeAnalysisRuleSet>..\HMS.StyleCop.ruleset</CodeAnalysisRuleSet>
     </PropertyGroup>
 
