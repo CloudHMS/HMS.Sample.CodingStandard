@@ -15,15 +15,16 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 3. Copy the **Directory.Build.props** file to **solution directory**.
 
 (Ignore below unless you want to follow these Coding standards)
-4. Add reference to `StyleCop.Analyzers` NuGet package at least at version `1.1.1-beta.61`.
-5. Make sure the `csproj` file contains these lines.
+4. Copy the **HMS.StyleCop.ruleset**, **stylecop.json** files to **solution directory**.
+5. Add reference to `StyleCop.Analyzers` NuGet package at least at version `1.1.1-beta.61`.
+6. Make sure the `csproj` file contains these lines.
 ```xml
     <PropertyGroup>
-        <CodeAnalysisRuleSet>..\HMS.StyleCop.ruleset</CodeAnalysisRuleSet>
+        <CodeAnalysisRuleSet>..\HMS.StyleCop.ruleset</CodeAnalysisRuleSet> <!-- Could be changed depends on the location from the project to solution -->
     </PropertyGroup>
 
     <ItemGroup>
-        <AdditionalFiles Include="..\stylecop.json" />
+        <AdditionalFiles Include="..\stylecop.json" /> <!-- Could be changed depends on the location from the project to solution -->
     </ItemGroup>
 ```
 ## Development phase
