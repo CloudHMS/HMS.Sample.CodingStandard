@@ -14,7 +14,8 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 2. Copy the **.gitignore** file to **repository root**.
 3. Copy the **Directory.Build.props** file to **solution directory**.
 
-(Ignore below unless you want to follow these Coding standards)
+**Ignore below steps unless you want to follow these Coding standards**
+
 4. Copy the **HMS.StyleCop.ruleset**, **stylecop.json** files to **solution directory**.
 5. Add reference to `StyleCop.Analyzers` NuGet package at least at version `1.1.1-beta.61`.
 6. Make sure the `csproj` file contains these lines.
