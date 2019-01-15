@@ -1,0 +1,14 @@
+<Project>
+
+	<PropertyGroup>
+		<Version>1.0.0</Version> <!-- Increase version bases on your development phases -->
+		<Authors>HMS</Authors>
+		<Company>HMS</Company>
+		<Product>HMS</Product>
+	</PropertyGroup>
+
+	<PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+</Project>
