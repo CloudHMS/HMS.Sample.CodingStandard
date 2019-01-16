@@ -196,9 +196,9 @@ SomeDelegate someDelegate = delegate()
 22. Always have **space** before and after the **colon** (`:`).
 
 ### <a id="rule-23"></a>
-23. Project name, or DynamoDB should follow structure as each name-pair **<NameOfSystem>.<FunctionOfSystem>.<NameOfSubSystem1>.<FunctionOfSubSystem1>.<...>.<...>**. Any sub-systems shouls keep extending this naming structure.
-- **<NameOfSystem>** could be company name, library name,... If it's the sub-system, it means that it belongs to the previous system. Optional, sometimes the function of the system already explains the system itself.
-- **<FunctionOfSystem>** could be the purpose of this project on the above name, explain its existence. Must be in singular form. 
+23. Project name, or DynamoDB should follow structure as each name-pair **`<NameOfSystem>.<FunctionOfSystem>.<NameOfSubSystem1>.<FunctionOfSubSystem1>.<abc_system>.<function_of_abc_system>`**. Any sub-systems shouls keep extending this naming structure.
+- **`<NameOfSystem>`** could be company name, library name,... If it's the sub-system, it means that it belongs to the previous system. Optional, sometimes the function of the system already explains the system itself.
+- **`<FunctionOfSystem>`** could be the purpose of this project on the above name, explain its existence. Must be in singular form. 
 ```csharp
 // This is the core code of HMS company
 HMS.Core
