@@ -1,7 +1,7 @@
 # HMS Coding Standards
 The coding standards for HMS project, categorized by languages.
 
-1. [C#](/CloudHMS/HMS.Sample.CodingStandard/tree/9e1987d012d1ac5319f3187c1db2bcc6c95da5af/C%23)
+1. [C#](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/9e1987d012d1ac5319f3187c1db2bcc6c95da5af/C%23)
 
 # Versioning As [Semantic Versioning 2.0.0](https://semver.org/)
 
