@@ -5,11 +5,11 @@ The C# coding standard for HMS project, based on [iDesign standard](http://www.i
 This coding standard is optional. The main concept that we need to have a same view on developing software. So if you find your own standard which is different than this, it's still fine.
 
 ## Sections
-1. [Code practices](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/e45112d8e2fde1e4e3720fca37df30ddbc362395/C%23/Coding%20practices)
-2. [Development tools](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/e45112d8e2fde1e4e3720fca37df30ddbc362395/C%23/Development%20tools)
-3. [Logging conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/e45112d8e2fde1e4e3720fca37df30ddbc362395/C%23/Logging%20conventions)
-4. [Naming conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/e45112d8e2fde1e4e3720fca37df30ddbc362395/C%23/Naming%20conventions)
-5. [Project settings and structure](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/e45112d8e2fde1e4e3720fca37df30ddbc362395/C%23/Project%20settings%20and%20structure)
+1. [Code practices](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Coding%20practices)
+2. [Development tools](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Development%20tools)
+3. [Logging conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Logging%20conventions)
+4. [Naming conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Naming%20conventions)
+5. [Project settings and structure](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Project%20settings%20and%20structure)
 
 # Development guidelines
 ## Initial project phase
