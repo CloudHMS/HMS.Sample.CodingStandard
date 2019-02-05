@@ -2,7 +2,7 @@
 
 <a id="1st"></a>
 [1. Type, method, and constant](#1st)
-- Pascal casing.
+- Camel casing.
 ```csharp
 public class SomeClass
 {	
@@ -13,7 +13,7 @@ public class SomeClass
 
 <a id="2nd"></a>
 [2. Constant](#2nd)
-- Capital letter.
+- Capital letters.
 ```csharp
 public class SomeClass
 {
@@ -22,8 +22,8 @@ public class SomeClass
 ```
 
 3. Private member
-- Prefix with `_` and then camel casing.
-> The iDesign's original rule for private member is `m_` and pascal casing. However, the community (StackOverflow) recently agreed that the `_` and camel casing still makes sense and applicable.
+- Prefix with `_` and then pascal casing.
+> The iDesign's original rule for private member is `m_` and camel casing. However, the community (StackOverflow) recently agreed that the `_` and pascal casing still makes sense and applicable.
 ```csharp
 public class SomeClass
 {
@@ -44,7 +44,7 @@ public class SomeClass
 ```
 
 5. Interface
-- Prefix with `I` and pascal casing.
+- Prefix with `I` and camel casing.
 ```csharp
 public interface IMyInterface
 {...}
@@ -240,3 +240,13 @@ public class ApiResponse
 public class ApiResponseObject
 {...}
 ```
+
+27. Any abbreviation should follow the naming rules above, means that no capiral letter to them *EXCEPT* `ID`.
+```csharp
+SmtpHost
+EtcdHost
+SqlServer
+/* Except */ AccountID
+```
+
+28. PLEASE, NEVER use the new `using declaration` in [C# 8.0](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2), or kill yourself then.
