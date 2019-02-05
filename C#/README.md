@@ -10,6 +10,7 @@ This coding standard is optional. The main concept that we need to have a same v
 3. [Logging conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Logging%20conventions)
 4. [Naming conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Naming%20conventions)
 5. [Project settings and structure](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Project%20settings%20and%20structure)
+6. [Source control conventions](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Source%20control%20conventions)
 
 # Development guidelines
 ## Initial project phase
