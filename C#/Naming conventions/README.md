@@ -1,6 +1,7 @@
 # NAMING CONVENTIONS
 
-1. Type, method, and constant
+<a id="1st"></a>
+[1. Type, method, and constant](#1st)
 - Pascal casing.
 ```csharp
 public class SomeClass
@@ -10,7 +11,8 @@ public class SomeClass
 }
 ```
 
-2. Constant
+<a id="2nd"></a>
+[2. Constant](#2nd)
 - Capital letter.
 ```csharp
 public class SomeClass
