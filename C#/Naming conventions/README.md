@@ -241,12 +241,12 @@ public class ApiResponseObject
 {...}
 ```
 
-27. Any abbreviation should follow the naming rules above, means that no capiral letter to them *EXCEPT* `ID`.
+27. Any abbreviation which is more than 3 letters should have all capital letters
 ```csharp
-SmtpHost
-EtcdHost
-SqlServer
-/* Except */ AccountID
+SMTPHost
+ETCDHost
+SQLServer
+AccountId
 ```
 
 28. PLEASE, NEVER use the new `using declaration` in [C# 8.0](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2), or kill yourself then.
