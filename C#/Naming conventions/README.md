@@ -1,8 +1,8 @@
 # NAMING CONVENTIONS
 
 <a id="1st"></a>
-[1. Type, method, and constant](#1st)
-- Camel casing.
+[1. Type, method](#1st)
+- `Non-Microsoft` Camel casing.
 ```csharp
 public class SomeClass
 {	
@@ -22,8 +22,8 @@ public class SomeClass
 ```
 
 3. Private member
-- Prefix with `_` and then pascal casing.
-> The iDesign's original rule for private member is `m_` and camel casing. However, the community (StackOverflow) recently agreed that the `_` and pascal casing still makes sense and applicable.
+- Prefix with `_` and then `Non-Microsoft` pascal casing.
+> The iDesign's original rule for private member is `m_` and `Non-Microsoft` camel casing. However, the community (StackOverflow) recently agreed that the `_` and `Non-Microsoft` pascal casing still makes sense and applicable.
 ```csharp
 public class SomeClass
 {
@@ -32,7 +32,7 @@ public class SomeClass
 ```
 
 4. Local variable, method argument
-- Camel casing.
+- `Non-Microsoft` Camel casing.
 ```csharp
 public class SomeClass
 {
@@ -44,7 +44,7 @@ public class SomeClass
 ```
 
 5. Interface
-- Prefix with `I` and camel casing.
+- Prefix with `I` and `Non-Microsoft` camel casing.
 ```csharp
 public interface IMyInterface
 {...}
