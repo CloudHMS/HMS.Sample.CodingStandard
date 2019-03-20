@@ -249,4 +249,11 @@ SQLServer
 AccountId
 ```
 
-28. PLEASE, NEVER use the new `using declaration` in [C# 8.0](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2), or kill yourself then.
+<a id="#28"></a>
+[28. API endpoints should be named in **hyphen-case**]("#28th")
+
+E.g.: **{host}/api/_get-hotel-availability_**
+
+And remaining types of data, still keeps `Non-Microsoft` pascal casing.
+
+E.g.: **{host}/api/get-hotel-info?_queyString=hello_**
