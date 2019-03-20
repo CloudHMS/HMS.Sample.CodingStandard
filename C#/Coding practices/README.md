@@ -466,3 +466,7 @@ else
 75. There should be a **space** after C# keywords `for`, `if`, `else`, `switch`,...
 
 76. Should always include the `private` modifier.
+
+77. API endpoints should be named in **hyphen-case**.
+
+E.g.: "{host}/api/get-hotel-availability"
