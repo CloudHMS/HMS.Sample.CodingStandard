@@ -467,6 +467,4 @@ else
 
 76. Should always include the `private` modifier.
 
-77. API endpoints should be named in **hyphen-case**.
-
-E.g.: "{host}/api/get-hotel-availability"
+77. PLEASE, NEVER use the new `using declaration` in [C# 8.0](https://blogs.msdn.microsoft.com/dotnet/2019/01/29/announcing-net-core-3-preview-2), or kill yourself then.
