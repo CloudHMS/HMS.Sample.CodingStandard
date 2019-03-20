@@ -249,8 +249,8 @@ SQLServer
 AccountId
 ```
 
-<a id="#28"></a>
-[28. API endpoints should be named in **hyphen-case**]("#28th")
+<a id="28th"></a>
+[28. API endpoints should be named in **hyphen-case**](#28th)
 
 E.g.: **{host}/api/_get-hotel-availability_**
 
