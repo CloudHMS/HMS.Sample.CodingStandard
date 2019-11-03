@@ -2,7 +2,8 @@
 The C# coding standard for HMS project, based on [iDesign standard](http://www.idesign.net/) with our own customization.
 
 # IMPORTANT:
-This coding standard is optional. The main concept that we need to have a same view on developing software. So if you find your own standard which is different than this, it's still fine.
+This coding standard is optional. The main concept that we need to have a same view on developing software. 
+So if you find your own standard which is different than this, it's still fine, as long as it's approved by your technical leader.
 
 ## Sections
 1. [Code practices](https://github.com/CloudHMS/HMS.Sample.CodingStandard/tree/master/C%23/Coding%20practices)
@@ -31,4 +32,4 @@ This coding standard is optional. The main concept that we need to have a same v
 1. Branch from `master` branch to your Jira Id's name. For ex: `TT-135`
 2. After finishing development, create 2 PRs which the description `MUST` contain Jira Id to `master` and `development`.
 3. If there is no draft release, create 1 with the description as above. If there is, append to it.
-4. Copy 2 PRs link, send to technical lead in forum.
+4. Copy 2 PR links, send to technical lead in chat room.
