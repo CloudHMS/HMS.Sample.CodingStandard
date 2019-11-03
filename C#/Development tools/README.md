@@ -34,10 +34,12 @@
 > This extension is a must-have while developing for HMS.
 
 ## Free for Community
-
-10. [Supercharger](https://marketplace.visualstudio.com/items?itemName=MichaelKissBG8.Supercharger)
-- Supercharger is an extension designed to significantly improve the Visual Studio development experience. It builds upon and enhances previous VS10x products like CodeMAP, Editor View Enhancer, Comments Extender while also adding new high-quality tools.
+10. [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+- An open source Visual Studio extension to cleanup and simplify C#, C++, F#, VB, PHP, PowerShell, R, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
 
 ## Commercial
-11. [Reshaper](https://www.jetbrains.com/resharper/)
+11. [Supercharger](https://marketplace.visualstudio.com/items?itemName=MichaelKissBG8.Supercharger)
+- Supercharger is an extension designed to significantly improve the Visual Studio development experience. It builds upon and enhances previous VS10x products like CodeMAP, Editor View Enhancer, Comments Extender while also adding new high-quality tools.
+
+12. [Reshaper](https://www.jetbrains.com/resharper/)
 - The ultimate .NET developing tool.
