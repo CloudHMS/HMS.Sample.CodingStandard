@@ -29,3 +29,7 @@ This coding standard is optional. The main concept that we need to have a same v
     </ItemGroup>
 ```
 ## Development phase
+1. Branch from `master` branch to your Jira Id's name. For ex: `TT-135`
+2. After finishing development, create 2 PRs which the description `MUST` contain Jira Id to `master` and `development`.
+3. If there is no draft release, create 1 with the description as above. If there is, append to it.
+4. Copy 2 PRs link, send to technical lead in forum.
